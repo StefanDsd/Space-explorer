@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <div className="main">
-      <video src={videoBg} type="video/mp4" autoPlay loop muted />
+      <video src={videoBg} type="video/mp4" playsinline autoPlay loop muted />
       <motion.div 
       whileInView={{ y: [100, 20], opacity: [0, 1] }}
       transition={{ duration: 0.8, ease: "easeIn" }}
