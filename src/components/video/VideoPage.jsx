@@ -92,10 +92,6 @@ export default function VideoPage() {
                 signal from the station or if the ISS is on the night side of
                 Earth. When the feed is live the words LIVE NOW will appear in
                 the top left hand corner of the screen.
-              </p>
-
-              <p>
-                {" "}
                 As the Space Station passes into a period of night every 45 mins
                 video is unavailable - during this time, and other breaks in
                 transmission, recorded footage is shown . When back in daylight
